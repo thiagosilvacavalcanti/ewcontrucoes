@@ -107,6 +107,7 @@ export default function Footer() {
             © {new Date().getFullYear()} EW Construções & Engenharia. Todos os direitos reservados.
           </p>
           <div className="flex gap-8">
+            <a href="/admin/login" className="text-white/30 hover:text-white text-xs transition-colors">Área Restrita</a>
             <a href="#" className="text-white/30 hover:text-white text-xs transition-colors">Política de Privacidade</a>
             <a href="#" className="text-white/30 hover:text-white text-xs transition-colors">Termos de Uso</a>
           </div>
