@@ -184,7 +184,7 @@ export default function Portfolio() {
         </motion.div>
 
         <div className="mt-20 text-center">
-          <a href="https://wa.me/5511915597796" target="_blank" rel="noopener noreferrer" className="btn-outline inline-flex mx-auto">
+          <a href="https://wa.me/5511911422289" target="_blank" rel="noopener noreferrer" className="btn-outline inline-flex mx-auto">
             Ver Portfólio Completo
           </a>
         </div>
@@ -272,7 +272,7 @@ export default function Portfolio() {
                   </div>
 
                   <a
-                    href="https://wa.me/5511915597796"
+                    href="https://wa.me/5511911422289"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary w-full justify-center"

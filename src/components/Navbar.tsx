@@ -38,13 +38,21 @@ export default function Navbar() {
     >
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
-        <a href="#home" className="flex flex-col">
-          <span className="text-2xl font-display font-extrabold text-white tracking-tighter leading-none">
-            EW<span className="text-accent">.</span>
-          </span>
-          <span className="text-[10px] text-accent font-bold uppercase tracking-[0.2em] mt-1">
-            CONSTRUÇÕES & ENGENHARIA
-          </span>
+        <a href="#home" className="flex items-center gap-3">
+          <img
+            src="/logowl.jpg"
+            alt="WL20 Engenharia Logo"
+            className="h-10 w-10 object-cover rounded-sm border border-white/20"
+            referrerPolicy="no-referrer"
+          />
+          <div className="flex flex-col">
+            <span className="text-xl font-display font-extrabold text-white tracking-tighter leading-none">
+              WL20<span className="text-accent">.</span>
+            </span>
+            <span className="text-[9px] text-accent font-bold uppercase tracking-[0.2em] mt-1">
+              ENGENHARIA
+            </span>
+          </div>
         </a>
 
         {/* Desktop Links */}
@@ -59,7 +67,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/5511915597796"
+            href="https://wa.me/5511911422289"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent hover:bg-accent-light text-white px-6 py-2 rounded-sm text-xs font-bold uppercase tracking-widest transition-all"
@@ -100,11 +108,11 @@ export default function Navbar() {
               <div className="flex flex-col gap-4 pt-4 border-t border-white/10">
                 <div className="flex items-center gap-3 text-white/60 text-sm">
                   <Phone size={16} className="text-accent" />
-                  (11) 91559-7796
+                  (11) 91142-2289
                 </div>
                 <div className="flex items-center gap-3 text-white/60 text-sm">
                   <Mail size={16} className="text-accent" />
-                  atendimento@ewconstrucoes.com.br
+                  atendimento@wl20engenharia.com.br
                 </div>
               </div>
             </div>

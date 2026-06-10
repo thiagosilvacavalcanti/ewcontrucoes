@@ -53,7 +53,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-primary mb-4">WhatsApp</h3>
             <p className="text-gray-500 mb-8">Atendimento imediato para orçamentos e dúvidas técnicas.</p>
             <a
-              href="https://wa.me/5511915597796"
+              href="https://wa.me/5511911422289"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary w-full justify-center py-5"
@@ -75,14 +75,14 @@ export default function Contact() {
                 <Phone size={20} className="text-accent shrink-0 mt-1" />
                 <div>
                   <div className="text-[10px] uppercase font-bold text-white/40 mb-1">Telefone</div>
-                  <div className="text-lg font-medium">(11) 91559-7796</div>
+                  <div className="text-lg font-medium">(11) 91142-2289</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Mail size={20} className="text-accent shrink-0 mt-1" />
                 <div>
                   <div className="text-[10px] uppercase font-bold text-white/40 mb-1">E-mail</div>
-                  <div className="text-lg font-medium break-all">atendimento@ewconstrucoes.com.br</div>
+                  <div className="text-lg font-medium break-all">atendimento@wl20engenharia.com.br</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -106,14 +106,14 @@ export default function Contact() {
               <Clock size={40} />
             </div>
             <h3 className="text-2xl font-bold text-primary mb-4">Horário</h3>
-            <div className="space-y-4 text-gray-600">
+            <div className="space-y-4 text-gray-600 w-full">
               <div className="flex justify-between gap-8 border-b border-gray-100 pb-2">
                 <span className="font-bold">Seg - Sex</span>
-                <span>08:00 - 18:00</span>
+                <span>07:00 - 20:00</span>
               </div>
               <div className="flex justify-between gap-8 border-b border-gray-100 pb-2">
                 <span className="font-bold">Sábado</span>
-                <span>08:00 - 12:00</span>
+                <span>07:00 - 14:00</span>
               </div>
               <div className="flex justify-between gap-8 text-accent font-bold">
                 <span>Domingo</span>

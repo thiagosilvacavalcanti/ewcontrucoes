@@ -19,11 +19,11 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative z-10 rounded-sm overflow-hidden shadow-2xl">
+            <div className="relative z-10 rounded-sm overflow-hidden shadow-2xl bg-white p-12 aspect-square flex items-center justify-center border border-gray-100">
               <img
-                src="https://images.unsplash.com/photo-1503387762-592dee582a7b?auto=format&fit=crop&q=80&w=1200"
-                alt="Equipe EW Construções"
-                className="w-full h-auto min-h-[300px] object-cover"
+                src="/logowl.jpg"
+                alt="WL20 Engenharia"
+                className="max-h-[85%] max-w-[85%] object-contain"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -50,7 +50,7 @@ export default function About() {
               Tradição em Construir com <span className="text-accent">Precisão</span> e Confiança.
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Com anos de atuação sólida no mercado da construção civil, a EW Construções & Engenharia 
+              Com anos de atuação sólida no mercado da construção civil, a WL20 Engenharia 
               nasceu do desejo de elevar o padrão das obras no Brasil. Somos especialistas em 
               estruturas complexas e acabamentos de alto luxo.
             </p>

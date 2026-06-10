@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: 'Ricardo Santos',
     role: 'CEO - Tech Solutions',
-    content: 'A EW Construções entregou nossa nova sede com 15 dias de antecedência. A qualidade técnica e a transparência no gerenciamento de custos foram fundamentais para o sucesso do projeto.',
+    content: 'A WL20 Engenharia entregou nossa nova sede com 15 dias de antecedência. A qualidade técnica e a transparência no gerenciamento de custos foram fundamentais para o sucesso do projeto.',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200',
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: 'Eng. Marcos Oliveira',
     role: 'Diretor de Projetos',
-    content: 'Trabalhar em parceria com a EW é garantia de tranquilidade. Eles entendem a complexidade estrutural e executam com maestria o que está no papel.',
+    content: 'Trabalhar em parceria com a WL20 é garantia de tranquilidade. Eles entendem a complexidade estrutural e executam com maestria o que está no papel.',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
   },
 ];

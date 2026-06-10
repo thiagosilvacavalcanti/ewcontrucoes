@@ -123,9 +123,15 @@ export default function AdminDashboard() {
     <div className="min-h-screen bg-gray-50 flex">
       {/* Sidebar */}
       <aside className="w-64 bg-primary text-white flex flex-col">
-        <div className="p-8 border-b border-white/10">
+        <div className="p-8 border-b border-white/10 flex items-center gap-3">
+          <img
+            src="/logowl.jpg"
+            alt="WL20"
+            className="h-8 w-8 object-cover rounded-sm border border-white/10"
+            referrerPolicy="no-referrer"
+          />
           <h1 className="text-2xl font-display font-extrabold tracking-tighter">
-            EW<span className="text-accent">.</span> ADMIN
+            WL20<span className="text-accent">.</span> ADMIN
           </h1>
         </div>
 

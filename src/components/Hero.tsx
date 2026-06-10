@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=2070"
-          alt="Construção de alto padrão"
+          alt=""
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
         />
@@ -18,15 +18,7 @@ export default function Hero() {
 
       <div className="container-custom relative z-10 py-16 lg:py-0">
         <div className="max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <span className="inline-block bg-accent/20 text-accent-light px-4 py-1 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] mb-6 border border-accent/30">
-              Excelência em Engenharia
-            </span>
-          </motion.div>
+          {/* Removed badge */}
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -43,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed"
           >
-            A EW Construções & Engenharia transforma visões arquitetônicas em marcos de engenharia. 
+            A WL20 Engenharia transforma visões arquitetônicas em marcos de engenharia. 
             Qualidade técnica, segurança e compromisso com o prazo em cada detalhe.
           </motion.p>
 
@@ -53,7 +45,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <a href="https://wa.me/5511915597796" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href="https://wa.me/5511911422289" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Solicitar Orçamento <ArrowRight size={18} />
             </a>
             <a href="#portfolio" className="btn-outline !text-white !border-white/30 hover:!border-accent">

@@ -12,13 +12,21 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           {/* Brand */}
           <div className="space-y-6">
-            <a href="#home" className="flex flex-col">
-              <span className="text-3xl font-display font-extrabold text-white tracking-tighter leading-none">
-                EW<span className="text-accent">.</span>
-              </span>
-              <span className="text-[10px] text-accent font-bold uppercase tracking-[0.2em] mt-1">
-                CONSTRUÇÕES & ENGENHARIA
-              </span>
+            <a href="#home" className="flex items-center gap-3">
+              <img
+                src="/logowl.jpg"
+                alt="WL20 Engenharia Logo"
+                className="h-10 w-10 object-cover rounded-sm border border-white/20"
+                referrerPolicy="no-referrer"
+              />
+              <div className="flex flex-col">
+                <span className="text-2xl font-display font-extrabold text-white tracking-tighter leading-none">
+                  WL20<span className="text-accent">.</span>
+                </span>
+                <span className="text-[9px] text-accent font-bold uppercase tracking-[0.2em] mt-1">
+                  ENGENHARIA
+                </span>
+              </div>
             </a>
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
               Referência em engenharia civil e construção de alto padrão. 
@@ -84,13 +92,13 @@ export default function Footer() {
             <ul className="space-y-6">
               <li className="flex items-start gap-4">
                 <Phone size={18} className="text-accent shrink-0" />
-                <a href="https://wa.me/5511915597796" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-accent transition-colors text-sm">
-                  (11) 91559-7796
+                <a href="https://wa.me/5511911422289" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-accent transition-colors text-sm">
+                  (11) 91142-2289
                 </a>
               </li>
               <li className="flex items-start gap-4">
                 <Mail size={18} className="text-accent shrink-0" />
-                <span className="text-white/50 text-sm">atendimento@ewconstrucoes.com.br</span>
+                <span className="text-white/50 text-sm">atendimento@wl20engenharia.com.br</span>
               </li>
               <li className="flex items-start gap-4">
                 <MapPin size={18} className="text-accent shrink-0" />
@@ -104,7 +112,7 @@ export default function Footer() {
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/30 text-xs font-medium">
-            © {new Date().getFullYear()} EW Construções & Engenharia. Todos os direitos reservados.
+            © {new Date().getFullYear()} WL20 Engenharia. Todos os direitos reservados.
           </p>
           <div className="flex gap-8">
             <a href="/admin/login" className="text-white/30 hover:text-white text-xs transition-colors">Área Restrita</a>

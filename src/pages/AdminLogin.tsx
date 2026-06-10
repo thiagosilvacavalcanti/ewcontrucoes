@@ -21,9 +21,17 @@ export default function AdminLogin() {
         className="bg-white p-8 rounded-sm shadow-2xl w-full max-w-md"
       >
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-display font-extrabold text-primary tracking-tighter">
-            EW<span className="text-accent">.</span> ADMIN
-          </h1>
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img
+              src="/logowl.jpg"
+              alt="WL20 Engenharia Logo"
+              className="h-10 w-10 object-cover rounded-sm border border-gray-200"
+              referrerPolicy="no-referrer"
+            />
+            <h1 className="text-3xl font-display font-extrabold text-primary tracking-tighter">
+              WL20<span className="text-accent">.</span> ADMIN
+            </h1>
+          </div>
           <p className="text-gray-500 text-sm mt-2 uppercase tracking-widest">Acesso Restrito</p>
         </div>
 
