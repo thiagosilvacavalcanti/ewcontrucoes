@@ -74,7 +74,7 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-8 items-start sm:items-center p-6 bg-gray-50 rounded-sm border-l-4 border-accent">
               <div>
                 <div className="text-sm uppercase tracking-widest text-gray-400 font-bold mb-1">Fundador</div>
-                <div className="text-xl font-bold text-primary">Eng. Eduardo Martini</div>
+                <div className="text-xl font-bold text-primary">Eng. Wesley Leite</div>
               </div>
               <div className="h-10 w-[1px] bg-gray-200 hidden sm:block"></div>
               <p className="text-sm text-gray-500 italic max-w-xs">
